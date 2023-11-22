@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
 
   s.source           = { :git => 'https://github.com/PEPDigitalPublishing/CustomCamera'}
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '11.0'
 
   s.source_files = 'PEPCustomCamera/CustomCamera/Defines/PEPCustomCameraHeader.h'
 
