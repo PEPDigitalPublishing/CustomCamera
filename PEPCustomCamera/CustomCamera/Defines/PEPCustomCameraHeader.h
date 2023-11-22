@@ -14,5 +14,7 @@
 #import <Masonry/Masonry.h>
 #import "UIView+ZEMRead.h"
 #import "MBProgressHUD+PEP.h"
+#import "PEPCustomCameraViewController.h"
+
 
 #endif /* PEPCustomCameraHeader_h */
