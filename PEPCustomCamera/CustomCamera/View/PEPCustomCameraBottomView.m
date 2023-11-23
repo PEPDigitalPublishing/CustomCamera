@@ -47,7 +47,11 @@
 - (UIButton *)deleteBtn {
     if (!_deleteBtn) {
         _deleteBtn = [[UIButton alloc] init];
-        [_deleteBtn setImage:[UIImage imageNamed:@"delete_image"] forState:UIControlStateNormal];
+        if (@available(iOS 13.0, *)) {
+            [_deleteBtn setImage:[UIImage imageNamed:@"closed.png" inBundle:[NSBundle.alloc initWithPath:[NSBundle.mainBundle pathForResource:@"CustomCamera" ofType:@"bundle"]] withConfiguration:nil] forState:UIControlStateNormal];
+        } else {
+            // Fallback on earlier versions
+        }
         [_deleteBtn addTarget:self action:@selector(deleteBtnClick) forControlEvents:UIControlEventTouchUpInside];
     }
     return _deleteBtn;

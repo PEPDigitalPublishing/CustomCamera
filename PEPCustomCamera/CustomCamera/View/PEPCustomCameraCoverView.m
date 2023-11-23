@@ -104,7 +104,11 @@
         _backBtn.backgroundColor = UIColor.whiteColor;
         _backBtn.layer.cornerRadius = 22;
         _backBtn.layer.masksToBounds = YES;
-        [_backBtn setImage:[UIImage imageNamed:@"gray_back"] forState:UIControlStateNormal];
+        if (@available(iOS 13.0, *)) {
+            [_backBtn setImage:[UIImage imageNamed:@"gray_back.png" inBundle:[NSBundle.alloc initWithPath:[NSBundle.mainBundle pathForResource:@"CustomCamera" ofType:@"bundle"]] withConfiguration:nil] forState:UIControlStateNormal];
+        } else {
+            // Fallback on earlier versions
+        }
         [_backBtn addTarget:self action:@selector(backBtnClick) forControlEvents:UIControlEventTouchUpInside];
     }
     return _backBtn;

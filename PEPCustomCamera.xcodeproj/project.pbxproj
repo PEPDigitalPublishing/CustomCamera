@@ -100,6 +100,7 @@
 		3F6C82E92A1B00FD00D649D9 /* UIView+ZEMRead.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C82E72A1B00FD00D649D9 /* UIView+ZEMRead.m */; };
 		3F6C82EC2A1B163800D649D9 /* PEPCustomCameraBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F6C82EB2A1B163800D649D9 /* PEPCustomCameraBottomView.m */; };
 		3F6C82EE2A1B5A5E00D649D9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F6C82ED2A1B5A5E00D649D9 /* AssetsLibrary.framework */; };
+		7564F0302B0F25CA00176A13 /* CustomCamera.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7564F02F2B0F25CA00176A13 /* CustomCamera.bundle */; };
 		8BEC896CBA2A6002B6A2A62B /* Pods_PEPCustomCamera.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B670AF455C4D6D67742116D3 /* Pods_PEPCustomCamera.framework */; };
 		FFFE7A483FE6A11C1C8F8095 /* Pods_PEPCustomCamera_PEPCustomCameraUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 19B646E8743E776D12724744 /* Pods_PEPCustomCamera_PEPCustomCameraUITests.framework */; };
 /* End PBXBuildFile section */
@@ -312,6 +313,7 @@
 		3F6C82EB2A1B163800D649D9 /* PEPCustomCameraBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PEPCustomCameraBottomView.m; sourceTree = "<group>"; };
 		3F6C82ED2A1B5A5E00D649D9 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		4762D8225B34A70277204B0B /* Pods-PEPCustomCamera-PEPCustomCameraUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PEPCustomCamera-PEPCustomCameraUITests.debug.xcconfig"; path = "Target Support Files/Pods-PEPCustomCamera-PEPCustomCameraUITests/Pods-PEPCustomCamera-PEPCustomCameraUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7564F02F2B0F25CA00176A13 /* CustomCamera.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = CustomCamera.bundle; sourceTree = SOURCE_ROOT; };
 		861F1BCE83F3483D7C98D459 /* Pods-PEPCustomCameraTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PEPCustomCameraTests.release.xcconfig"; path = "Target Support Files/Pods-PEPCustomCameraTests/Pods-PEPCustomCameraTests.release.xcconfig"; sourceTree = "<group>"; };
 		920E002373303F031D933542 /* Pods-PEPCustomCamera.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PEPCustomCamera.debug.xcconfig"; path = "Target Support Files/Pods-PEPCustomCamera/Pods-PEPCustomCamera.debug.xcconfig"; sourceTree = "<group>"; };
 		B670AF455C4D6D67742116D3 /* Pods_PEPCustomCamera.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PEPCustomCamera.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -382,6 +384,7 @@
 				3F5DD5732A171F390026BA0B /* LaunchScreen.storyboard */,
 				3F5DD5762A171F390026BA0B /* Info.plist */,
 				3F5DD5772A171F390026BA0B /* main.m */,
+				7564F02F2B0F25CA00176A13 /* CustomCamera.bundle */,
 			);
 			path = PEPCustomCamera;
 			sourceTree = "<group>";
@@ -828,6 +831,7 @@
 				3F6C82A12A1B006800D649D9 /* README.md in Resources */,
 				3F5DD5702A171F380026BA0B /* Main.storyboard in Resources */,
 				3F6C81CA2A1AFCB200D649D9 /* .gitkeep in Resources */,
+				7564F0302B0F25CA00176A13 /* CustomCamera.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
