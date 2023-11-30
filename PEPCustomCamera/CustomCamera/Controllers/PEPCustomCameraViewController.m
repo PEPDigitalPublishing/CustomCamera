@@ -57,9 +57,11 @@
     [self.view addSubview:self.containerView];
     
     self.cameraManager = [[PEPCameraManager alloc] init];
+    
     [self.cameraManager configureWithtargetViewLayer:self.containerView previewRect:CGRectMake(0, 0, KScreenWidth, KScreenHeight - height)];
     
     [self.view addSubview:self.coverView];
+    
     self.imageArray = [[NSMutableArray alloc] init];
     
     [self.cameraManager startRunning];

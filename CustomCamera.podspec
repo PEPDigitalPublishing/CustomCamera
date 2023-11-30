@@ -22,6 +22,8 @@ Pod::Spec.new do |s|
 
   s.resource = 'CustomCamera.bundle'
 
+  s.dependency 'Masonry'
+
   s.subspec 'CameraManager' do |ss|
 
     ss.source_files = 'PEPCustomCamera/CustomCamera/CameraManager/*.{h,m}'
